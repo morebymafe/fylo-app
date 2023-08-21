@@ -6,6 +6,7 @@ body{
     color: white;
     font-size: 14px;
     overflow-x: hidden;
+    text-overflow: hidden;
 }
 
 h1, h3{
