@@ -5,8 +5,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 14px;
-    overflow-x: hidden;
-    text-overflow: hidden;
 }
 
 h1, h3{
@@ -57,7 +55,7 @@ button{
     background-color: hsl(198, 60%, 50%);
     font-family: 'Raleway', sans-serif;
     color: white;
-    font-size: 12px;
+    font-size: 11px;
     cursor: pointer;
     margin: 20px;
 }
@@ -111,6 +109,7 @@ h5{
 footer{
     background-color: hsl(216, 53%, 9%);
     padding: 30px;
+    z-index: -1;
 }
 .footer-links{
     display: block;
@@ -128,4 +127,19 @@ footer{
     top: 7px;
 }
 
+.access{
+    background-color: hsl(217, 28%, 15%);
+    padding: 1em 15px;
+    border-radius: 10px;
+    margin-top: 4em;
+    box-shadow: 1px 1px 10px rgb(19, 19, 19);
+}
+
+input{
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 10px;
+
+}
 
